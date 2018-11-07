@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+elpy = "==1.25.0"
+jedi = "==0.13.1"
+rope = "==0.11.0"
+"autopep8" = "==1.4.2"
+yapf = "==0.24.0"
+black = "==18.9b0"
+"flake8" = "*"
+
+[requires]
+python_version = "3.6"
