@@ -10,7 +10,6 @@ dateparser = "==0.7.0"
 mpl-finance = "==0.10.0"
 matplotlib = "==3.0.0"
 python-binance = "==0.7.0"
-pycrypto = "==2.6.1"
 "flake8" = "==3.6.0"
 jedi = "==0.13.1"
 

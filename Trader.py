@@ -8,14 +8,8 @@ import json
 import matplotlib.pyplot as plt
 import mpl_finance #import candlestick_ohlc
 from datetime import datetime
-# API key_path
-q_path = "/home/user/Vault"
-sys.path.append(os.path.abspath(q_path))
-for path in sys.path:
-    print(path)
-print('=' * 100)
 from binance.client import Client
-from BinanceKeys import BinanceKey1
+from vault.BinanceKeys import BinanceKey1
 
 class Trader():
     list_of_symbols = ['BTCUSDT', 'ETHUSDT', 'BNBUSDT','BNBBTC', 'ETHBTC', 'LTCBTC']
