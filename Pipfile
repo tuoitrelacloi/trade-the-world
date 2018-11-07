@@ -6,13 +6,13 @@ name = "pypi"
 [dev-packages]
 
 [packages]
-elpy = "==1.25.0"
+dateparser = "==0.7.0"
+mpl-finance = "==0.10.0"
+matplotlib = "==3.0.0"
+python-binance = "==0.7.0"
+pycrypto = "==2.6.1"
+"flake8" = "==3.6.0"
 jedi = "==0.13.1"
-rope = "==0.11.0"
-"autopep8" = "==1.4.2"
-yapf = "==0.24.0"
-black = "==18.9b0"
-"flake8" = "*"
 
 [requires]
 python_version = "3.6"
