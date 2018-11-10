@@ -4,13 +4,18 @@
 
 import sys
 import time
-from binance.client import Client
+
 '''Making unverified HTTPS requests is strongly discouraged, however,
 if you understand the risks and wish to disable these warnings,
 you can use disable_warnings():'''
 
 import urllib3
 urllib3.disable_warnings()
+
+from binance.client import Client
+from vault.BinanceKeys import BinanceKey1
+api_key1 = BinanceKeys1.api_key
+api_secret1 = BinanceKey1.api_secret
 
 
 # decide what pair do you want to trade
